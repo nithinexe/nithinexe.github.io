@@ -16,7 +16,7 @@ const config = {
         // hydrate the <div id="svelte"> element in src/app.html
         target: '#svelte',
         paths: {
-            base: '/nithinexe.github.io', // replace '/my-app/' with your base URL
+            base:process.env.NODE_ENV === 'production' ? '/nithinexe.github.io' : '', // replace '/my-app/' with your base URL
         },
 
     }
