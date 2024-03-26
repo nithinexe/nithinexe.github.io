@@ -14,7 +14,11 @@ const config = {
         hydrate: false,
 
         // hydrate the <div id="svelte"> element in src/app.html
-        target: '#svelte'
+        target: '#svelte',
+        paths: {
+            base: '/nithinexe.github.io', // replace '/my-app/' with your base URL
+        },
+
     }
 };
 
