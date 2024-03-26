@@ -39,10 +39,10 @@
     <meta property="og:image:height" content="1080" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content={name} />
-    <link rel="icon" href="static/avatar.png" />
-    <link rel="icon" href="static/avatar.png" sizes="32x32" />
-    <link rel="icon" href="static/avatar.png" sizes="16x16" />
-    <link rel="apple-touch-icon" href="static/avatar.png" />
+    <link rel="icon" href="/avatar.png" />
+    <link rel="icon" href="/avatar.png" sizes="32x32" />
+    <link rel="icon" href="/avatar.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="/avatar.png" />
 
     <script
         async
